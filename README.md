@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# .KE Domain App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 1. About the .KE Domain App
+The .KE Domain App is a modern cross-platform solution designed to simplify and enhance the process of discovering, registering, and managing .KE domains.
 
-## Get started
+### Purpose and Vision
+The app bridges the gap between the public, businesses, and accredited registrars by providing a single, user-friendly platform for domain registration and related services in Kenya.
 
-1. Install dependencies
+### Supported Platforms
+- Android (mobile app)
+- iOS (mobile app)
+- Web Application (accessible from any browser)
 
-   ```bash
-   npm install
-   ```
+### Target Users
+- **Individuals:** seeking personal domains for portfolios, blogs, or branding.  
+- **Businesses and Startups:** registering domains to establish a professional online presence.  
+- **Registrars:** applying for accreditation and managing services through a streamlined digital process.  
+- **Policy Stakeholders:** reviewing adoption and ensuring compliance with KeNIC’s registry standards.  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 2. Technology Stack
+The .KE Domain App is built with a modern, reliable technology stack optimized for performance, scalability, and cross-platform delivery.
 
-In the output, you'll find options to open the app in a
+- **Frontend:** React Native, TypeScript  
+- **Backend & Services:** Firebase (Auth, Firestore, Storage, Notifications), Custom APIs, WHOIS API  
+- **Development Environment:** Visual Studio Code, Git & GitHub  
+- **Deployment:**  
+  - Mobile → Play Store (Android), App Store (iOS)  
+  - Web → Firebase Hosting or Vercel  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 3. Core Features
+- Domain search and availability check (WHOIS-powered, real-time).  
+- Domain registration workflow with registrar integration.  
+- Registrar application module (eligibility screening & verification).  
+- Domain analytics (traffic, uptime, DNS monitoring, SSL/TLS checks).  
+- AI-powered domain suggestions & registrar matching.  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 4. Releases
+✅ A **ready-to-install APK** is available under the [Releases](https://github.com/makaladoe/.KE-DOMAIN-APP/releases) section of this repository.  
 
-```bash
-npm run reset-project
-```
+- Simply download the `.apk` file to your Android device.  
+- Ensure **“Install from Unknown Sources”** is enabled in your phone’s settings.  
+- Open the file → Install → Launch the app.  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 5. Setup and Installation (For Developers)
 
-To learn more about developing your project with Expo, look at the following resources:
+If you wish to run or modify the project locally, follow these steps:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Clone Repository
+```sh
+git clone https://github.com/makaladoe/.KE-DOMAIN-APP.git
+cd .KE-DOMAIN-APP
